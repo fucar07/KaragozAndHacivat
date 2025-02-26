@@ -26,6 +26,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Audio.Cnds.IsTagPlaying,
 		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.System.Cnds.IsGroupActive,
+		C3.Plugins.System.Acts.SetBoolVar,
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.Sprite.Acts.SetPos,
@@ -45,6 +46,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetAnimFrame,
 		C3.Plugins.Arr.Exps.At,
 		C3.Plugins.Sprite.Acts.SetInstanceVar,
+		C3.Behaviors.DragnDrop.Acts.SetEnabled,
 		C3.Behaviors.Flash.Acts.Flash,
 		C3.Behaviors.Tween.Acts.TweenTwoProperties,
 		C3.Behaviors.Tween.Acts.TweenOneProperty,
@@ -55,7 +57,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
 		C3.Plugins.Sprite.Cnds.CompareFrameTag,
 		C3.Plugins.Sprite.Exps.AnimationFrameTag,
-		C3.Behaviors.DragnDrop.Acts.SetEnabled,
 		C3.Plugins.System.Acts.AddVar,
 		C3.Plugins.System.Cnds.Else,
 		C3.Plugins.System.Cnds.CompareVar,
@@ -67,7 +68,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetAnim,
 		C3.Plugins.Browser.Acts.RequestFullScreen,
 		C3.Plugins.Audio.Acts.SetPaused,
-		C3.Plugins.System.Acts.SetBoolVar,
 		C3.Plugins.System.Cnds.EveryTick
 	];
 };
@@ -116,6 +116,7 @@ self.C3_JsPropNameTable = [
 	{AnaSayfaGorseller: 0},
 	{secilenCumle: 0},
 	{sayac: 0},
+	{tiklanabilir: 0},
 	{musicDurum: 0}
 ];
 
